@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <node-files value="simple.nod.xml"/>
+        <edge-files value="simple.edg.xml"/>
+        <connection-files value="simple.con.xml"/>
+        <tllogic-files value="simple.tll.xml"/>
+    </input>
+    <output>
+        <net-file value="simple.net.xml"/>
+    </output>
+</configuration>

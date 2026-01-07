@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+    <!-- EAST incoming -->
+    <connection from="east_in" to="west_out" dir="s"/>
+    <connection from="east_in" to="north_out" dir="l"/>
+    <connection from="east_in" to="south_out" dir="r"/>
+
+    <!-- WEST incoming -->
+    <connection from="west_in" to="east_out" dir="s"/>
+    <connection from="west_in" to="south_out" dir="l"/>
+    <connection from="west_in" to="north_out" dir="r"/>
+
+    <!-- NORTH incoming -->
+    <connection from="north_in" to="south_out" dir="s"/>
+    <connection from="north_in" to="west_out" dir="l"/>
+    <connection from="north_in" to="east_out" dir="r"/>
+
+    <!-- SOUTH incoming -->
+    <connection from="south_in" to="north_out" dir="s"/>
+    <connection from="south_in" to="east_out" dir="l"/>
+    <connection from="south_in" to="west_out" dir="r"/>
+</connections>

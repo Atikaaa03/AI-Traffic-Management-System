@@ -1,0 +1,7 @@
+***Starting server on port 53592 ***
+Loading net-file from 'simple.net.xml' ... done (5ms).
+Loading route-files incrementally from 'simple.rou.xml'
+Loading done.
+Simulation version 1.24.0 started with time: 0.00.
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

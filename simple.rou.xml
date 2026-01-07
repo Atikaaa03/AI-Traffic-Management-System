@@ -1,0 +1,24 @@
+<routes>
+    <vType id="car" accel="1.2" decel="3.0" sigma="0.8" length="5" maxSpeed="13.9" minGap="2.5" lcStrategic="0" lcCooperative="0"/>
+
+    <!-- NORTH Incoming -->
+    <flow id="north_straight" type="car" begin="0" end="3600" number="100" from="north_in" to="south_out"/>
+    <flow id="north_right"    type="car" begin="0" end="3600" number="80"  from="north_in" to="west_out"/>
+    <flow id="north_left"     type="car" begin="0" end="3600" number="80"  from="north_in" to="east_out"/>
+
+    <!-- SOUTH Incoming -->
+    <flow id="south_straight" type="car" begin="0" end="3600" number="100" from="south_in" to="north_out"/>
+    <flow id="south_right"    type="car" begin="0" end="3600" number="80"  from="south_in" to="east_out"/>
+    <flow id="south_left"     type="car" begin="0" end="3600" number="80"  from="south_in" to="west_out"/>
+
+    <!-- EAST Incoming -->
+    <flow id="east_straight"  type="car" begin="0" end="3600" number="100" from="east_in" to="west_out"/>
+    <flow id="east_right"     type="car" begin="0" end="3600" number="80"  from="east_in" to="south_out"/>
+    <flow id="east_left"      type="car" begin="0" end="3600" number="80"  from="east_in" to="north_out"/>
+
+    <!-- WEST Incoming -->
+    <flow id="west_straight"  type="car" begin="0" end="3600" number="100" from="west_in" to="east_out"/>
+    <flow id="west_right"     type="car" begin="0" end="3600" number="80"  from="west_in" to="north_out"/>
+    <flow id="west_left"      type="car" begin="0" end="3600" number="80"  from="west_in" to="south_out"/>
+
+</routes>

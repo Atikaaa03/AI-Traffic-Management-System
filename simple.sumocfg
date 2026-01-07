@@ -1,0 +1,5 @@
+<input>
+    <net-file value="simple.net.xml"/>
+    <route-files value="simple.rou.xml"/>
+    <additional-files value="simple.tll.xml, visualization.add.xml"/>
+</input>

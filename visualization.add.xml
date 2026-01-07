@@ -1,0 +1,14 @@
+<additional>
+
+    <!-- Lane Icons -->
+    <poi id="laneA" x="100" y="145" imgFile="laneA.png" width="8" height="8"/>
+    <poi id="laneB" x="145" y="100" imgFile="laneB.png" width="8" height="8"/>
+    <poi id="laneC" x="100" y="55"  imgFile="laneC.png" width="8" height="8"/>
+    <poi id="laneD" x="55"  y="100" imgFile="laneD.png" width="8" height="8"/>
+
+    <!-- Signal Icons -->
+    <poi id="red"    x="100" y="108" imgFile="red.png"    width="6" height="6"/>
+    <poi id="yellow" x="100" y="100" imgFile="yellow.png" width="6" height="6"/>
+    <poi id="green"  x="100" y="92"  imgFile="green.png"  width="6" height="6"/>
+
+</additional>

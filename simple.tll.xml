@@ -1,0 +1,45 @@
+<additional>
+    <tlLogic id="center" type="static" programID="1" offset="0">
+
+        <!-- 1. North Protected Left (index 2) -->
+        <phase duration="6"  state="rrGrrrrrrrrrrrrr"/>
+        <phase duration="2"  state="rryrrrrrrrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 2. North Straight + Right (0,1,3) -->
+        <phase duration="15" state="GGGrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="yyyrrrrrrrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 3. East Protected Left (6) -->
+        <phase duration="6"  state="rrrrrrGrrrrrrrrr"/>
+        <phase duration="2"  state="rrrrrryrrrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 4. East Straight + Right (4,5,7) -->
+        <phase duration="15" state="rrrrGGGrGrrrrrrr"/>
+        <phase duration="3"  state="rrrryyyryrrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 5. South Protected Left (10) -->
+        <phase duration="6"  state="rrrrrrrrrGrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrryrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 6. South Straight + Right (8,9,11) -->
+        <phase duration="15" state="rrrrrrrGGGrrrrrr"/>
+        <phase duration="3"  state="rrrrrrryyyrrrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 7. West Protected Left (14) -->
+        <phase duration="6"  state="rrrrrrrrrrrGrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrryrrrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+        <!-- 8. West Straight + Right (12,13,15) -->
+        <phase duration="15" state="rrrrrrrrrrrGGGrr"/>
+        <phase duration="3"  state="rrrrrrrrrrryyyrr"/>
+        <phase duration="1"  state="rrrrrrrrrrrrrrrr"/>
+
+    </tlLogic>
+</additional>
